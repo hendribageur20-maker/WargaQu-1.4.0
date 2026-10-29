@@ -1,0 +1,6 @@
+{
+  "name": "WargaQu",
+  "description": "Aplikasi mobile manajemen warga RT/RW digital WargaQu dengan desain mobile interaktif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
