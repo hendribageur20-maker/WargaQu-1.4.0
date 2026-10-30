@@ -2,16 +2,18 @@
 
 @theme {
   --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --color-bca-dark: #003366;
-  --color-bca-blue: #0055A5;
-  --color-bca-light: #00A3E0;
-  --color-bca-accent: #00C4FF;
-  --color-bca-bg: #F2F5F9;
+  --color-warga-dark: #064e3b;
+  --color-warga-deep: #047857;
+  --color-warga-emerald: #059669;
+  --color-warga-mint: #34d399;
+  --color-warga-light: #6ee7b7;
+  --color-warga-soft: #a7f3d0;
+  --color-warga-bg: #f0fdf4;
 }
 
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  background-color: #0f172a;
+  background-color: #f1f5f9;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;

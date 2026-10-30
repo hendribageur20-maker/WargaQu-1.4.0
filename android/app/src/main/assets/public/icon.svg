@@ -1,44 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#003366" />
-      <stop offset="50%" stop-color="#0055A5" />
-      <stop offset="100%" stop-color="#002244" />
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064E3B" />
+      <stop offset="45%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#059669" />
     </linearGradient>
-    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00C4FF" />
-      <stop offset="100%" stop-color="#0077CC" />
+    <linearGradient id="mintGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#10B981" />
     </linearGradient>
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.3" />
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25" />
     </filter>
   </defs>
 
   <!-- Background rounded rect -->
-  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <rect width="512" height="512" rx="112" fill="url(#emeraldGrad)" />
 
   <!-- Outer subtle glow circle -->
-  <circle cx="256" cy="256" r="190" fill="none" stroke="#00C4FF" stroke-width="3" opacity="0.25" />
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#34D399" stroke-width="3" opacity="0.3" />
 
   <!-- Shield / House Badge -->
   <g filter="url(#shadow)">
     <!-- Roof / Crest shape -->
-    <path d="M256 100 L380 190 L340 330 L256 385 L172 330 L132 190 Z" fill="#ffffff" fill-opacity="0.1" stroke="#00C4FF" stroke-width="6" stroke-linejoin="round" />
+    <path d="M256 100 L380 190 L340 330 L256 385 L172 330 L132 190 Z" fill="#ffffff" fill-opacity="0.12" stroke="#34D399" stroke-width="6" stroke-linejoin="round" />
     
     <!-- Central Modern House Icon -->
-    <path d="M256 160 L330 225 V315 H182 V225 Z" fill="url(#cyanGrad)" />
+    <path d="M256 160 L330 225 V315 H182 V225 Z" fill="url(#mintGrad)" />
     <!-- Doorway cut -->
-    <rect x="236" y="245" width="40" height="70" rx="8" fill="#003366" />
+    <rect x="236" y="245" width="40" height="70" rx="8" fill="#064E3B" />
     <!-- Heart / Community symbol inside -->
     <circle cx="256" cy="230" r="10" fill="#ffffff" />
   </g>
 
   <!-- Brand Typography -->
   <text x="256" y="440" font-family="'Inter', sans-serif, system-ui" font-size="52" font-weight="900" font-style="italic" fill="#ffffff" text-anchor="middle" letter-spacing="1">
-    warga<tspan fill="#00C4FF">Qu</tspan>
+    warga<tspan fill="#34D399">Qu</tspan>
   </text>
-  <rect x="210" y="460" width="92" height="20" rx="10" fill="#00C4FF" fill-opacity="0.2" stroke="#00C4FF" stroke-width="1.5" />
-  <text x="256" y="474" font-family="'Inter', sans-serif, system-ui" font-size="12" font-weight="800" fill="#00C4FF" text-anchor="middle">
+  <rect x="210" y="460" width="92" height="20" rx="10" fill="#34D399" fill-opacity="0.25" stroke="#34D399" stroke-width="1.5" />
+  <text x="256" y="474" font-family="'Inter', sans-serif, system-ui" font-size="12" font-weight="800" fill="#A7F3D0" text-anchor="middle">
     RT 03 / RW 05
   </text>
 </svg>
